@@ -10,7 +10,7 @@ def secret(request):
 <link type="text/css" rel="stylesheet" href="/static/style.css">
 </head>
 <div align="center">
-<h2>Now you hight bro' !</h2>
+<h1>Now you high bro' !</h1>
 <iframe width="420" height="315" src="//www.youtube.com/embed/zHU2RlSCdxU" frameborder="0" allowfullscreen></iframe></br>
 Copyright 2014
 </div>
