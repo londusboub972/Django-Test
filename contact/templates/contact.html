@@ -1,0 +1,22 @@
+<head>
+<meta charset=utf-8" />
+<title>Contact Page</title>
+<link type="text/css" rel="stylesheet" href="/static/style.css">
+</head>
+<div align="center">
+<img src="../static/nyanheader.png" alt="NyanError" />
+<h2>So you high, tell me how was it' !</h2>
+<form action="{% url "contact.views.contact" %}" method="post">
+{% if send %}Success !{% endif %}
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" />
+</form>
+<img src="../static/nyanheader.png" alt="NyanError" />
+</br>
+Copyright 2014
+</div>
+</br>
+</br>
+</br>
+</footer>

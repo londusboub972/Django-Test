@@ -12,6 +12,7 @@ def secret(request):
 <div align="center">
 <h1>Now you high bro' !</h1>
 <iframe width="420" height="315" src="//www.youtube.com/embed/zHU2RlSCdxU" frameborder="0" allowfullscreen></iframe></br>
+<h2>Too high ? contact the webmaster <a href="../contact">here !</a></h2>
 Copyright 2014
 </div>
 </br>
